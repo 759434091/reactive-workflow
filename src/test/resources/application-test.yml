@@ -1,0 +1,14 @@
+blog:
+  lohoknang:
+    workflow:
+      reactive:
+        enabled: true
+        definitions:
+          workflow1:
+            - workUnit1
+            - workUnit3A
+            - workUnit3B
+          workflow2:
+            - workUnit2
+            - workUnit3A
+            - workUnit3C
